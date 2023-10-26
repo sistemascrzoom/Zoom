@@ -1,1 +1,3 @@
-esto es una prueba
+<?php
+echo "esto es una prueba";
+?>
