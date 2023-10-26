@@ -1,0 +1,143 @@
+/* Tamaño de fuente relativo */
+body {
+  font-size: 100%;
+}
+
+/* Ancho relativo */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Altura relativa */
+.image {
+  height: 50%;
+}
+.ejecutar
+{
+  background-color: #6f9cc3;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.ejecutar:hover
+{
+  background-color: #7e8be5;
+}
+.ejecutar:active
+{
+ background-color: #7e8be5;
+}
+
+/*a:link, a:visited
+{
+  background-color: #25659d;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #0e365a;
+}*/
+
+.regresar
+{
+  background-color: #d92424;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.regresar:hover
+{
+  background-color: #fb5e5e;
+}
+.regresar:active
+{
+ background-color: #fb5e5e;
+}
+
+.centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    flex-direction: column;
+    padding: 20px 30px 30px 30px;
+}
+.paises {
+  display: flex;
+  padding: 5px 5px 5px 5px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.izquierda {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    padding: 20px 30px 0px 50px;
+    flex-direction: column;
+}
+.contenido{
+  padding: 20px 30px 30px 30px;
+}
+.editar
+{
+  background-color: #B7A46D;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.editar:hover
+{
+  background-color: #F1C232;
+}
+.editar:active
+{
+ background-color: #F1C232;
+}
+.nuevo
+{
+  background-color: #B0DC4C;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.nuevo:hover
+{
+  background-color: #C7E681;
+}
+.nuevo:active
+{
+ background-color: #C7E681;
+}
+.botonesizq {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  padding: 25px 10px 10px 10px;
+  flex-direction: row;
+}
+.imgcss {
+  box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3); /* Configura los valores de sombra según tus necesidades */
+}
